@@ -1,5 +1,5 @@
 module.exports = {
-    port: `54321`,
+    port: `5345`,
     wechat: {
         token : 'weixin',
         appid : 'wxd10f8cbcf28c61b1',

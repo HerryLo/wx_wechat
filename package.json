@@ -4,7 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "supervisor app.js"
+    "dev": "supervisor app.js",
+    "setup": "pm2 deploy deploy.yaml production setup",
+    "deploy": "pm2 deploy deploy.yaml production update"
   },
   "repository": {
     "type": "git",
