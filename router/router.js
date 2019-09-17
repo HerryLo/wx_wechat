@@ -4,6 +4,6 @@ const Routers = new Router();
 const wechatCenter = require('../controllers/wechatCenter');
 
 // controller/wechatCenter
-Routers.get('/wechat', wechatCenter.wechat);
+Routers.get('/wechat', wechatCenter.get);
 
-module.exports = Routers
+export default Routers
