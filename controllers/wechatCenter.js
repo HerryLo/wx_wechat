@@ -3,6 +3,7 @@ const config = require('../config');
 
 function wechatCenter() {
     this.wechat = async (ctx, next) => {
+        console.log('query参数：', ctx.query)
         let token = config.wechat.token;
         let signature = ctx.query.signature;
         let nonce = ctx.query.nonce;
@@ -10,6 +11,7 @@ function wechatCenter() {
         let echostr = ctx.query.echostr;
         let str = [token,timestamp,nonce].sort().join(''); //按字典排序，拼接字符串
         let sha = sha1(str); //加密
+        console.log('signature和sha比较：', sha === signature)
         ctx.body = (sha === signature)? echostr + '' : 'failed';  //比较并返回结果
     }
 }
