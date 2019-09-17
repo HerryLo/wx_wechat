@@ -1,4 +1,4 @@
-export default {
+module.exports = {
     async get(ctx, next) {
         await next();
     }

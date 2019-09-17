@@ -16,7 +16,7 @@ App.use(koaBody({
 /** 路由配置 */
 Routers(App);
 
-app.use(middlewareWechat);
+App.use(middlewareWechat);
 
 App.listen(config.port, async () => {
     console.log(`Node Server Open: localhost:${config.port}`);

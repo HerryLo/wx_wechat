@@ -3,7 +3,7 @@ const router = new Router();
 
 const Routers = require('./router');
 
-export default (app) => {
+module.exports = (app) => {
     router.use('/api', Routers.routes(), Routers.allowedMethods())
 
     /* 路由注册 */
