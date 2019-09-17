@@ -10,7 +10,7 @@ module.exports = wechat(config.wechat).middleware(
             },
             [
                 {
-                title: '欢迎交流哦！！😁😁',
+                title: '',
                 description: '',
                 picurl: 'https://didiheng.com/WechatIMG199.jpeg',
                 url: ''
