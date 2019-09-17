@@ -3,8 +3,6 @@ const config = require('../config');
 
 function wechatCenter() {
     this.wechat = async (ctx, next) => {
-        ctx.body = 12313;
-        return;
         let token = config.wechat.token;
         let signature = ctx.query.signature;
         let nonce = ctx.query.nonce;
