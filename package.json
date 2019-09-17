@@ -1,0 +1,26 @@
+{
+  "name": "wx_wechat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HerryLo/wx_wechat.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "herrylo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HerryLo/wx_wechat/issues"
+  },
+  "homepage": "https://github.com/HerryLo/wx_wechat#readme",
+  "dependencies": {
+    "koa": "^2.8.1",
+    "sha1": "^1.1.1"
+  }
+}
