@@ -66,6 +66,16 @@ co-body@^5.1.1:
     raw-body "^2.2.0"
     type-is "^1.6.14"
 
+co-wechat@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/co-wechat/-/co-wechat-2.4.0.tgz#f69cbe893086ce3c4bbe14cc3c3753ab7d639385"
+  integrity sha512-jgKeAuIdUJOZVc5wKBxBug8drL2+izhapHh2IzXsh6tSlszIzIVf89odHsYN4L6FFLse3XrKVM1k+No8jIjlDg==
+  dependencies:
+    ejs ">=1.0.0"
+    raw-body "^2.2.0"
+    wechat-crypto "0.0.2"
+    xml2js "0.4.4"
+
 co@^4.6.0:
   version "4.6.0"
   resolved "http://192.168.20.5:4873/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -488,6 +498,11 @@ safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   resolved "http://192.168.20.5:4873/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
 
+sax@0.6.x:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/sax/-/sax-0.6.1.tgz#563b19c7c1de892e09bfc4f2fc30e3c27f0952b9"
+  integrity sha1-VjsZx8HeiS4Jv8Ty/DDjwn8JUrk=
+
 sax@>=0.6.0:
   version "1.2.4"
   resolved "http://192.168.20.5:4873/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
@@ -631,6 +646,19 @@ xml2js@0.4.17:
   dependencies:
     sax ">=0.6.0"
     xmlbuilder "^4.1.0"
+
+xml2js@0.4.4:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.4.4.tgz#3111010003008ae19240eba17497b57c729c555d"
+  integrity sha1-MREBAAMAiuGSQOuhdJe1fHKcVV0=
+  dependencies:
+    sax "0.6.x"
+    xmlbuilder ">=1.0.0"
+
+xmlbuilder@>=1.0.0:
+  version "13.0.2"
+  resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-13.0.2.tgz#02ae33614b6a047d1c32b5389c1fdacb2bce47a7"
+  integrity sha512-Eux0i2QdDYKbdbA6AM6xE4m6ZTZr4G4xF9kahI2ukSEMCzwce2eX9WlTI5J3s+NU7hpasFsr8hWIONae7LluAQ==
 
 xmlbuilder@^4.1.0:
   version "4.2.1"
