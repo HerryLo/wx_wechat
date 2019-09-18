@@ -22,7 +22,7 @@ module.exports = {
      */
     async getMenu(ctx, next) {
         api.getMenu((err, result)=> {
-            console.log(result);
+            console.log(err, result);
         });
         
     }
