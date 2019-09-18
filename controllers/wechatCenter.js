@@ -21,7 +21,9 @@ module.exports = {
      * @param {*} next 
      */
     async getMenu(ctx, next) {
-        let result = await api.getMenu();
-        console.log(result);
+        api.getMenu((err, result)=> {
+            console.log(result);
+        });
+        
     }
 }
