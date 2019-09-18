@@ -612,8 +612,8 @@ vary@^1.1.2:
 
 wechat-api@^1.35.1:
   version "1.35.1"
-  resolved "http://192.168.20.5:4873/wechat-api/-/wechat-api-1.35.1.tgz#cd639bc1729ecb5d80a6ac92064c24d8ed8ee65b"
-  integrity sha1-zWObwXKey12ApqySBkwk2O2O5ls=
+  resolved "https://registry.yarnpkg.com/wechat-api/-/wechat-api-1.35.1.tgz#cd639bc1729ecb5d80a6ac92064c24d8ed8ee65b"
+  integrity sha512-nFw7F0GhGPlNZAkGY4iLELefEBuBqQO/eMvINo6r7cGSbssNAWgPCGo+p8HmnFjr6qCN3BjOtD2E7si/xCDAPg==
   dependencies:
     formstream ">=1.0.0"
     urllib "2.21.0"

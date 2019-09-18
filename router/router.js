@@ -8,4 +8,6 @@ Routers.get('/wechat', wechatCenter.get);
 
 Routers.post('/wechat', wechatCenter.post);
 
+Routers.get('/getMenu', wechatCenter.getMenu);
+
 module.exports = Routers
