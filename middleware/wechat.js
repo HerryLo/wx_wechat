@@ -3,6 +3,7 @@ const config = require('../config');
 
 module.exports = wechat(config.wechat).middleware(
     async (message, ctx) => {
+        console.log(message);
         let array = [
             {
                 type: 'text',

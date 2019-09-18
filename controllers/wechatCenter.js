@@ -18,7 +18,7 @@ module.exports = {
     },
 
     /**
-     * 获取自定义菜单配置
+     * 获取自定义菜单配置 ，目前未认证订阅号不支持
      * @param {*} ctx 
      * @param {*} next 
      */
@@ -26,6 +26,5 @@ module.exports = {
         global.api.getMenu((err, result)=> {
             console.log(err, result);
         });
-        
     }
 }
