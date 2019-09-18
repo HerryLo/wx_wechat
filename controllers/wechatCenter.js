@@ -6,6 +6,8 @@ const config = require('../config');
  */
 const api = new API(config.wechat.appid, config.wechat.appsecret);
 
+global.api = api
+
 module.exports = {
     async get(ctx, next) {
         await next();
@@ -21,7 +23,7 @@ module.exports = {
      * @param {*} next 
      */
     async getMenu(ctx, next) {
-        api.getMenu((err, result)=> {
+        global.api.getMenu((err, result)=> {
             console.log(err, result);
         });
         
