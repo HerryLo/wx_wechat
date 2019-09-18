@@ -1,5 +1,5 @@
 const API = require('wechat-api');
-const config = require('./config');
+const config = require('../config');
 
 /**
  * 微信公共平台Node库API
